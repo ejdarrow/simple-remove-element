@@ -1,0 +1,34 @@
+{
+  "name": "Simple Remove Element",
+  "version": "1.0.0",
+  "description": "Adds a context menu to remove an element from a page",
+  "manifest_version": 2,
+  "icons": {
+    "48": "remove_48.png",
+    "128": "remove_128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "remove_element.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}
