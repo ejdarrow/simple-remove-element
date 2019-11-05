@@ -1,7 +1,7 @@
 {
   "name": "Simple Remove Element",
   "short_name": "Remove Element",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Adds a context menu to remove an element from a page",
   "manifest_version": 2,
   "icons": {
@@ -30,5 +30,5 @@
     "contextMenus",
     "activeTab"
   ],
-  "content_security_policy": "script-src 'self'; object-src 'self'"
+  "content_security_policy": "script-src 'self'; object-src 'none'; default-src 'none'"
 }
