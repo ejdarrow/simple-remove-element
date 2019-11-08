@@ -9,4 +9,4 @@ Extensions that can read data on all websites are scary. I needed a simple way t
 
 This extension satisfies these requirements.
 
-Once I publish this extension I'll link the crexcavator report here.
+[crxcavator.io report](https://crxcavator.io/report/mlfckaclcmmggacnimimmeepailfhokj/1.0.4)
