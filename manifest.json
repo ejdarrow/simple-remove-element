@@ -1,12 +1,11 @@
 {
-  "name": "Simple Remove Element",
-  "short_name": "Remove Element",
-  "version": "1.0.4",
-  "description": "Adds a context menu to remove an element from a page",
+  "name": "PageBreak",
+  "short_name": "PageBreak",
+  "version": "1.0.0",
+  "description": "Removes barriers from pages by unhiding and enabling elements",
   "manifest_version": 2,
   "icons": {
-    "48": "remove_48.png",
-    "128": "remove_128.png"
+    "128": "pagebreak128.png"
   },
   "background": {
     "scripts": [
@@ -21,8 +20,8 @@
         "https://*/*"
       ],
       "js": [
-        "remove_element.js",
-	"undisable_element.js"
+	"enable_buttons.js",
+	"unhide_everything.js"
       ],
       "run_at": "document_idle"
     }

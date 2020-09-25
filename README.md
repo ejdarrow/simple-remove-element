@@ -1,12 +1,4 @@
-# Simple Remove Element
+# PageBreak
 
-Extensions that can read data on all websites are scary. I needed a simple way to remove elements from pages but I didn't want to use an extension that isn't:
+This extension offers the ability to unhide all the elements on a page that are hidden and enable all the buttons.
 
-1. Open-source
-2. Secure
-3. Efficient
-4. Auditable
-
-This extension satisfies these requirements.
-
-[crxcavator.io report](https://crxcavator.io/report/mlfckaclcmmggacnimimmeepailfhokj/1.0.4)
