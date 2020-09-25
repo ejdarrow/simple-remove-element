@@ -21,7 +21,8 @@
         "https://*/*"
       ],
       "js": [
-        "remove_element.js"
+        "remove_element.js",
+	"undisable_element.js"
       ],
       "run_at": "document_idle"
     }
